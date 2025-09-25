@@ -117,21 +117,20 @@ body {
 }
 
 @media (max-width: 480px) {
-    .header {
-        flex-direction: row;
-        gap: 0.9rem;
-        padding: 0.9rem;
+    
+    .logo{
+        display: none;
     }
     
     .nav-links {
-        gap: 0.8rem;
+        gap: 1.2rem;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
+        
     }
     
-    .nav-link {
-        font-size: 0.9rem;
-    }
+    
+    
 }
 
 /* ===================== HERO SECTION ===================== */
@@ -1306,4 +1305,24 @@ body {
     justify-content: center; /* Horizontal centering */
     text-align: center;
     margin-top: 3%;
+}
+
+
+ /* Make particles fill the background */
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;            /* Keep behind content */
+  background: #0f2027;    /* Optional background color */
+}
+
+/* Make sure your content stays visible above */
+.content {
+ 
+  z-index: 1;
+  color: white;
+  
 }
