@@ -1329,6 +1329,11 @@ body {
   
 }
 
-.projects-section, .skills-section, .resume-section, .contact-section{
+@media screen and (min-width: 768px) {
+    
+  .projects-section, .skills-section, .resume-section, .contact-section{
     padding-top: 7%;
 }
+    
+}
+
