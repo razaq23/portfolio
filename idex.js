@@ -126,3 +126,15 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
+
+
+
+
+// Get the link element
+const downloadBtn = document.getElementById("downloadResume");
+
+// Add click event listener
+downloadBtn.addEventListener("click", function() {
+  // Show alert
+  alert("Downloaded successfully !.");
+});

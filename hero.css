@@ -114,7 +114,7 @@ body {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
     .logo{
         display: none;
     }
@@ -122,7 +122,7 @@ body {
         gap: 0.6rem;
     }
     .header{
-        justify-content: space-evenly;
+        justify-content: center;
     }
     .nav-link {
         font-size: 1rem;
@@ -1327,4 +1327,8 @@ body {
   z-index: 1;
   color: white;
   
+}
+
+.projects-section, .skills-section, .resume-section, .contact-section{
+    padding-top: 7%;
 }
