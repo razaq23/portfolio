@@ -37,7 +37,7 @@ body {
 }
 
 .header.scrolled {
-    padding: 1rem 3rem;
+  
 }
 
 /* Portfolio Logo with split gradient */
@@ -120,12 +120,14 @@ body {
     
     .logo{
         display: none;
+        flex-wrap: wrap;
     }
     
     .nav-links {
         gap: 0.7rem;
         flex-wrap: wrap;
         justify-content: space-between;
+        font-size: smaller;
         
     }
     
